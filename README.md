@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/@i1k/redis-cache-client/latest.svg)](https://www.npmjs.com/package/@i1k/redis-cache-client)
 [![codecov](https://codecov.io/gh/i1kazantsev/redis-cache-client/branch/main/graph/badge.svg?token=4HOPG3NH5Z)](https://codecov.io/gh/i1kazantsev/redis-cache-client)
 
-Redis cache client with the same interface as [@ik/smart-cache-manager](https://github.com/ivan1kazantsev/smart-cache-manager#readme).
+Redis cache client with the same interface as [@i1k/smart-cache-manager](https://github.com/ivan1kazantsev/smart-cache-manager#readme).
 Uses [ioredis](https://github.com/luin/ioredis#readme) under the hood.
 
 ## Installation
