@@ -4,6 +4,4 @@ import RedisCacheClient from '../src'
 jest.mock('ioredis', () => require('ioredis-mock'))
 
 const client = new RedisCacheClient({ maxRetriesPerRequest: 0 })
-ICacheClientTestes(client, async () => {
-  await client.quit()
-})
+ICacheClientTestes(client)
